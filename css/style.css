@@ -1,0 +1,54 @@
+body{
+    font-family: 'segoe ui light';
+}
+
+/* Container */
+.item{
+    position: relative;
+    text-align: center;
+}
+
+.img-caption{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+
+
+
+
+/* LightBox Container */
+.lightbox-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    background-color: rgba(0,0,0,0.7);
+    display: none !important;
+    
+}
+
+.show{
+    display: flex!important;
+}
+
+.lightbox-item{
+    width: 50%;
+    height: 75%;
+    background-image: url('../imgs/bowl-candy-chocolate-1375807.jpg') ;
+    background-size: cover;
+    background-position:center;
+    
+    
+}
+
+.lightbox-container #wClose{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
